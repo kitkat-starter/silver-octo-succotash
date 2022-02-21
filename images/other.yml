@@ -1,0 +1,43 @@
+# 其他镜像 腾讯云
+v2fly/v2fly-core:latest: ccr.ccs.tencentyun.com/karasu/sync:v2ray
+portainer/portainer-ce:latest: ccr.ccs.tencentyun.com/karasu/sync:portainer
+requarks/wiki:2: ccr.ccs.tencentyun.com/karasu/sync:wikijs
+nondanee/unblockneteasemusic:latest: ccr.ccs.tencentyun.com/karasu/sync:unm
+teddysun/kms:latest: ccr.ccs.tencentyun.com/karasu/sync:kms
+# PlantUML Server
+# plantuml/plantuml-server:tomcat: ccr.ccs.tencentyun.com/karasu/sync:plantuml
+# tmate/tmate-ssh-server:latest: ccr.ccs.tencentyun.com/karasu/sync:tmate
+# tmate/tmate-websocket:latest: ccr.ccs.tencentyun.com/karasu/sync:tmate-websocket
+# Bitwarden
+vaultwarden/server:latest: ccr.ccs.tencentyun.com/karasu/sync:vaultwarden
+# rclone
+rclone/rclone:latest: ccr.ccs.tencentyun.com/karasu/sync:rclone
+# PowerShell
+# mcr.microsoft.com/powershell:lates: ccr.ccs.tencentyun.com/karasu/sync:pwsh
+# FCCT Fedora CoreOS 点火工具
+# quay.io/coreos/fcct:release: ccr.ccs.tencentyun.com/karasu/sync:fcct
+# 容器自动升级工具
+containrrr/watchtower:latest: ccr.ccs.tencentyun.com/karasu/sync:watchtower
+# Sonatype Nexus 3
+# sonatype/nexus3:latest: ccr.ccs.tencentyun.com/karasu/sync:nexus3
+# Faocalboard
+# mattermost/focalboard:latest: ccr.ccs.tencentyun.com/karasu/sync:focalboard
+# OpenProject
+# openproject/community:11: ccr.ccs.tencentyun.com/karasu/sync:openproject
+# Redmine
+# redmine:latest: ccr.ccs.tencentyun.com/karasu/sync:redmine
+# bitnami/redmine:latest: ccr.ccs.tencentyun.com/karasu/sync:redmine-bitnami
+sameersbn/redmine:latest: ccr.ccs.tencentyun.com/karasu/sync:redmine-sameersbn
+# Redmica
+# redmica/redmica:latest: ccr.ccs.tencentyun.com/karasu/sync:redmica
+# NocoDB
+# nocodb/nocodb:latest: ccr.ccs.tencentyun.com/karasu/sync:nocodb
+# Resilio Sync
+# resilio/sync:latest: ccr.ccs.tencentyun.com/karasu/sync:resilio-sync
+# Docker 防火墙
+# pitkley/dfw:1.2.1: ccr.ccs.tencentyun.com/karasu/sync:dfw
+dbeaver/cloudbeaver-ee:latest: ccr.ccs.tencentyun.com/karasu/sync:cloudbeaver-ee
+# NetMaker
+# gravitl/netmaker:latest: ccr.ccs.tencentyun.com/karasu/sync:netmaker
+# gravitl/netmaker-ui:latest: ccr.ccs.tencentyun.com/karasu/sync:netmaker-ui
+# coredns/coredns:latest: ccr.ccs.tencentyun.com/karasu/sync:coredns

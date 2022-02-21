@@ -1,0 +1,18 @@
+# Elastic 7.15.1
+# Elastic ELK组合
+docker.elastic.co/elasticsearch/elasticsearch:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/elk:elasticsearch
+docker.elastic.co/kibana/kibana:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/elk:kibana
+docker.elastic.co/logstash/logstash:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/elk:logstash
+# Elastic Beats
+docker.elastic.co/beats/auditbeat:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/beats:auditbeat
+docker.elastic.co/beats/filebeat:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/beats:filebeat
+docker.elastic.co/beats/heartbeat:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/beats:heartbeat
+docker.elastic.co/beats/journalbeat:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/beats:journalbeat
+docker.elastic.co/beats/metricbeat:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/beats:metricbeat
+docker.elastic.co/beats/packetbeat:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/beats:packetbeat
+# Elastic Beats 剩下的奇奇怪怪的东西
+docker.elastic.co/beats/elastic-agent:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/beats:elastic-agent
+docker.elastic.co/beats/elastic-logging-plugin:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/beats:elastic-logging-plugin
+# Elastic APM Enterprise-Search
+docker.elastic.co/apm/apm-server:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/other:apm-server
+docker.elastic.co/enterprise-search/enterprise-search:7.15.1: ccr.ccs.tencentyun.com/elastic-mirror/other:enterprise-search

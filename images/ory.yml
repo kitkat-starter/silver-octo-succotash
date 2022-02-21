@@ -1,0 +1,5 @@
+oryd/kratos:latest: ccr.ccs.tencentyun.com/karasu/sync:ory-kratos
+oryd/keto:latest: ccr.ccs.tencentyun.com/karasu/sync:ory-keto
+oryd/ory:latest: ccr.ccs.tencentyun.com/karasu/sync:ory-ory
+oryd/hydra:latest: ccr.ccs.tencentyun.com/karasu/sync:ory-hydra
+oryd/oathkeeper:latest: ccr.ccs.tencentyun.com/karasu/sync:ory-oathkeeper

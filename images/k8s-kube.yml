@@ -1,0 +1,20 @@
+# K8S kube开头
+k8s.gcr.io/kube-addon-manager: ccr.ccs.tencentyun.com/sync8s/kube-addon-manager
+k8s.gcr.io/kube-addon-manager-amd64: ccr.ccs.tencentyun.com/sync8s/kube-addon-manager-amd64
+# k8s.gcr.io/kube-addon-manager-arm64: ccr.ccs.tencentyun.com/sync8s/kube-addon-manager-arm64
+k8s.gcr.io/kube-apiserver: ccr.ccs.tencentyun.com/sync8s/kube-apiserver
+k8s.gcr.io/kube-apiserver-amd64: ccr.ccs.tencentyun.com/sync8s/kube-apiserver-amd64
+# k8s.gcr.io/kube-apiserver-arm64: ccr.ccs.tencentyun.com/sync8s/kube-apiserver-arm64
+k8s.gcr.io/kube-controller-manager: ccr.ccs.tencentyun.com/sync8s/kube-controller-manager
+k8s.gcr.io/kube-controller-manager-amd64: ccr.ccs.tencentyun.com/sync8s/kube-controller-manager-amd64
+# k8s.gcr.io/kube-controller-manager-arm64: ccr.ccs.tencentyun.com/sync8s/kube-controller-manager-arm64
+k8s.gcr.io/kube-discovery-amd64: ccr.ccs.tencentyun.com/sync8s/kube-discovery-amd64
+# k8s.gcr.io/kube-discovery-arm64: ccr.ccs.tencentyun.com/sync8s/kube-discovery-arm64
+k8s.gcr.io/kube-dnsmasq-amd64: ccr.ccs.tencentyun.com/sync8s/kube-dnsmasq-amd64
+# k8s.gcr.io/kube-dnsmasq-arm64: ccr.ccs.tencentyun.com/sync8s/kube-dnsmasq-arm64
+k8s.gcr.io/kube-proxy: ccr.ccs.tencentyun.com/sync8s/kube-proxy
+k8s.gcr.io/kube-proxy-amd64: ccr.ccs.tencentyun.com/sync8s/kube-proxy-amd64
+# k8s.gcr.io/kube-proxy-arm64: ccr.ccs.tencentyun.com/sync8s/kube-proxy-arm64
+k8s.gcr.io/kube-scheduler: ccr.ccs.tencentyun.com/sync8s/kube-scheduler
+k8s.gcr.io/kube-scheduler-amd64: ccr.ccs.tencentyun.com/sync8s/kube-scheduler-amd64
+# k8s.gcr.io/kube-scheduler-arm64: ccr.ccs.tencentyun.com/sync8s/kube-scheduler-arm64

@@ -1,0 +1,7 @@
+# LCPP 外部镜像 腾讯云
+caddy:latest: ccr.ccs.tencentyun.com/karasu/sync:caddy
+percona/percona-server:8.0: ccr.ccs.tencentyun.com/karasu/sync:percona-mysql-8
+redis:latest: ccr.ccs.tencentyun.com/karasu/sync:redis
+neilpang/acme.sh:latest: ccr.ccs.tencentyun.com/karasu/sync:acmesh
+postgres:13: ccr.ccs.tencentyun.com/karasu/sync:postgres-13
+postgres:14: ccr.ccs.tencentyun.com/karasu/sync:postgres-14

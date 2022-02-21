@@ -1,0 +1,11 @@
+# VictoriaMereics
+victoriametrics/victoria-metrics:v1.69.0-enterprise: ccr.ccs.tencentyun.com/karasu/cnm:victoriametrics
+victoriametrics/vmrestore:v1.69.0-enterprise: ccr.ccs.tencentyun.com/karasu/cnm:vmrestore
+victoriametrics/vmbackup:v1.69.0-enterprise: ccr.ccs.tencentyun.com/karasu/cnm:vmbackup
+victoriametrics/vmauth:v1.69.0-enterprise: ccr.ccs.tencentyun.com/karasu/cnm:vmauth
+victoriametrics/vmalert:v1.69.0-enterprise: ccr.ccs.tencentyun.com/karasu/cnm:vmalert
+victoriametrics/vmagent:v1.69.0-enterprise: ccr.ccs.tencentyun.com/karasu/cnm:vmagent
+# 下面的是集群版
+victoriametrics/vmstorage:v1.69.0-enterprise-cluster: ccr.ccs.tencentyun.com/karasu/cnm:vmstorage
+victoriametrics/vmselect:v1.69.0-enterprise-cluster: ccr.ccs.tencentyun.com/karasu/cnm:vmselect
+victoriametrics/vminsert:v1.69.0-enterprise-cluster: ccr.ccs.tencentyun.com/karasu/cnm:vminsert

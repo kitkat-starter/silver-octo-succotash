@@ -1,0 +1,22 @@
+# Grafana 家族
+grafana/grafana:latest: ccr.ccs.tencentyun.com/karasu/cnm:grafana
+grafana/loki:latest: ccr.ccs.tencentyun.com/karasu/cnm:loki
+grafana/promtail:latest: ccr.ccs.tencentyun.com/karasu/cnm:promtail
+# Prometheus 基础
+prom/prometheus:latest: ccr.ccs.tencentyun.com/karasu/cnm:prometheus
+prom/alertmanager:latest: ccr.ccs.tencentyun.com/karasu/cnm:alertmanager
+prom/pushgateway:latest: ccr.ccs.tencentyun.com/karasu/cnm:pushgateway
+# Prometheus Exporter
+prom/node-exporter:latest: ccr.ccs.tencentyun.com/karasu/cnm:node-exporter
+prom/memcached-exporter:latest: ccr.ccs.tencentyun.com/karasu/cnm:memcached-exporter
+prom/haproxy-exporter:latest: ccr.ccs.tencentyun.com/karasu/cnm:haproxy-exporter
+prom/blackbox-exporter:latest: ccr.ccs.tencentyun.com/karasu/cnm:blackbox-exporter
+prom/statsd-exporter:latest: ccr.ccs.tencentyun.com/karasu/cnm:statsd-exporter
+prom/snmp-exporter:latest: ccr.ccs.tencentyun.com/karasu/cnm:snmp-exporter
+prom/snmp-generator:latest: ccr.ccs.tencentyun.com/karasu/cnm:snmp-generator
+prom/graphite-exporter:latest: ccr.ccs.tencentyun.com/karasu/cnm:graphite-exporter
+prom/mysqld-exporter:latest: ccr.ccs.tencentyun.com/karasu/cnm:mysqld-exporter
+prom/influxdb-exporter:latest: ccr.ccs.tencentyun.com/karasu/cnm:influxdb-exporter
+prom/consul-exporter:latest: ccr.ccs.tencentyun.com/karasu/cnm:consul-exporter
+# Vector
+timberio/vector:latest-alpine: ccr.ccs.tencentyun.com/karasu/cnm:vector

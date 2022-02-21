@@ -1,0 +1,18 @@
+# K8S 其他开头
+k8s.gcr.io/coredns: ccr.ccs.tencentyun.com/sync8s/coredns
+k8s.gcr.io/dnsmasq-metrics-amd64: ccr.ccs.tencentyun.com/sync8s/dnsmasq-metrics-amd64
+# k8s.gcr.io/dnsmasq-metrics-arm64: ccr.ccs.tencentyun.com/sync8s/dnsmasq-metrics-arm64
+k8s.gcr.io/etcd: ccr.ccs.tencentyun.com/sync8s/etcd
+k8s.gcr.io/etcd-amd64: ccr.ccs.tencentyun.com/sync8s/etcd-amd64
+# k8s.gcr.io/etcd-arm64: ccr.ccs.tencentyun.com/sync8s/etcd-arm64
+k8s.gcr.io/exechealthz: ccr.ccs.tencentyun.com/sync8s/exechealthz
+k8s.gcr.io/exechealthz-amd64: ccr.ccs.tencentyun.com/sync8s/exechealthz-amd64
+# k8s.gcr.io/exechealthz-arm64: ccr.ccs.tencentyun.com/sync8s/exechealthz-arm64
+k8s.gcr.io/pause: ccr.ccs.tencentyun.com/sync8s/pause
+k8s.gcr.io/pause-amd64: ccr.ccs.tencentyun.com/sync8s/pause-amd64
+# k8s.gcr.io/pause-arm64: ccr.ccs.tencentyun.com/sync8s/pause-arm64
+k8s.gcr.io/kubedns-amd64: ccr.ccs.tencentyun.com/sync8s/kubedns-amd64
+# k8s.gcr.io/kubedns-arm64: ccr.ccs.tencentyun.com/sync8s/kubedns-arm64
+k8s.gcr.io/kubernetes-dashboard: ccr.ccs.tencentyun.com/sync8s/kubernetes-dashboard
+k8s.gcr.io/kubernetes-dashboard-amd64: ccr.ccs.tencentyun.com/sync8s/kubernetes-dashboard-amd64
+# k8s.gcr.io/kubernetes-dashboard-arm64: ccr.ccs.tencentyun.com/sync8s/kubernetes-dashboard-arm64

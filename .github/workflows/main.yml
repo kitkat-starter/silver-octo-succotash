@@ -1,0 +1,98 @@
+name: 同步容器镜像
+
+# 触发条件：在 push 到 master 分支后
+on:
+  push:
+  schedule:
+    - cron: "0 */4 * * *"
+env:
+  TKE_USERNAME: ${{ secrets.TKE_USERNAME }}
+  TKE_PASSWORD: ${{ secrets.TKE_PASSWORD }}
+  # ACR_USERNAME: ${{ secrets.ACR_USERNAME }}
+  # ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
+  HUB_USERNAME: ${{ secrets.HUB_USERNAME }}
+  HUB_PASSWORD: ${{ secrets.HUB_PASSWORD }}
+
+# 任务
+jobs:
+  sync-images-pter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步 翼龙 镜像
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/pter.yml
+  # sync-images-elk:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: 检出代码
+  #       uses: actions/checkout@v2
+  #     - name: 准备同步工具
+  #       run: bash ./tools.sh
+  #     - name: 同步 ELK 镜像
+  #       run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/elk.yml
+  sync-images-gitlab:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步 GitLab 镜像
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/gitlab.yml
+  sync-images-cnm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步 CNM Stack镜像
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/cnm.yml
+  sync-images-lcpp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步LCPP外部镜像
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/lcpp.yml
+  sync-images-other:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步其他镜像
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/other.yml
+  # sync-images-homoassistant:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: 检出代码
+  #       uses: actions/checkout@v2
+  #     - name: 准备同步工具
+  #       run: bash ./tools.sh
+  #     - name: 同步其他镜像
+  #       run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/homoassistant.yml
+  # sync-images-ory:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: 检出代码
+  #       uses: actions/checkout@v2
+  #     - name: 准备同步工具
+  #       run: bash ./tools.sh
+  #     - name: 同步其他镜像
+  #       run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/ory.yml
+  sync-images-victoriametrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步其他镜像
+        run: ./image-syncer -r 5 --proc 16 --auth auth.json --images images/victoriametrics.yml

@@ -1,0 +1,44 @@
+name: 同步 K8S 镜像
+
+# 触发条件：在 push 到 master 分支后
+on:
+  push:
+  schedule:
+    - cron: "0 */4 * * *"
+env:
+  TKE_USERNAME: ${{ secrets.TKE_USERNAME }}
+  TKE_PASSWORD: ${{ secrets.TKE_PASSWORD }}
+  ACR_USERNAME: ${{ secrets.ACR_USERNAME }}
+  ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }}
+  HUB_USERNAME: ${{ secrets.HUB_USERNAME }}
+  HUB_PASSWORD: ${{ secrets.HUB_PASSWORD }}
+
+# 任务
+jobs:
+  sync-images-k8s-other:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步 K8S-其他 镜像
+        run: ./image-syncer -r 5 --auth auth.json --images images/k8s-other.yml
+  sync-images-k8s-kube:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步 K8S-kube开头 镜像
+        run: ./image-syncer -r 5 --auth auth.json --images images/k8s-kube.yml
+  sync-images-k8s-k8s:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步 K8S-k8s开头 镜像
+        run: ./image-syncer -r 5 --auth auth.json --images images/k8s-k8s.yml
