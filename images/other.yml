@@ -37,7 +37,7 @@ sameersbn/redmine:latest: ccr.ccs.tencentyun.com/karasu/sync:redmine-sameersbn
 # Docker 防火墙
 # pitkley/dfw:1.2.1: ccr.ccs.tencentyun.com/karasu/sync:dfw
 dbeaver/cloudbeaver-ee:latest: ccr.ccs.tencentyun.com/karasu/sync:cloudbeaver-ee
-mumblevoip/mumble-server:lastest: ccr.ccs.tencentyun.com/karasu/sync:mumble-server
+mumblevoip/mumble-server:latest: ccr.ccs.tencentyun.com/karasu/sync:mumble-server
 # NetMaker
 # gravitl/netmaker:latest: ccr.ccs.tencentyun.com/karasu/sync:netmaker
 # gravitl/netmaker-ui:latest: ccr.ccs.tencentyun.com/karasu/sync:netmaker-ui
