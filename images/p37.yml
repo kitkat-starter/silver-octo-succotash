@@ -1,0 +1,7 @@
+# 翼龙的两份镜像 腾讯云
+quay.io/pterodactyl/core: ccr.ccs.tencentyun.com/p37tl/core
+quay.io/parkervcp/pterodactyl-images: ccr.ccs.tencentyun.com/p37tl/p37-imgs
+# 接下来是他们新的镜像
+ghcr.io/pterodactyl/yolks: ccr.ccs.tencentyun.com/p37tl/yks
+ghcr.io/pterodactyl/games: ccr.ccs.tencentyun.com/p37tl/gms
+ghcr.io/pterodactyl/installers: ccr.ccs.tencentyun.com/p37tl/installers
