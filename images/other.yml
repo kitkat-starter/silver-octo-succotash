@@ -4,16 +4,10 @@ portainer/portainer-ce:latest: ccr.ccs.tencentyun.com/karasu/sync:portainer
 requarks/wiki:2: ccr.ccs.tencentyun.com/karasu/sync:wikijs
 nondanee/unblockneteasemusic:latest: ccr.ccs.tencentyun.com/karasu/sync:unm
 teddysun/kms:latest: ccr.ccs.tencentyun.com/karasu/sync:kms
-# PlantUML Server
-# plantuml/plantuml-server:tomcat: ccr.ccs.tencentyun.com/karasu/sync:plantuml
-# tmate/tmate-ssh-server:latest: ccr.ccs.tencentyun.com/karasu/sync:tmate
-# tmate/tmate-websocket:latest: ccr.ccs.tencentyun.com/karasu/sync:tmate-websocket
 # Bitwarden
 vaultwarden/server:latest: ccr.ccs.tencentyun.com/karasu/sync:vaultwarden
 # rclone
 rclone/rclone:latest: ccr.ccs.tencentyun.com/karasu/sync:rclone
-# PowerShell
-# mcr.microsoft.com/powershell:lates: ccr.ccs.tencentyun.com/karasu/sync:pwsh
 # FCCT Fedora CoreOS 点火工具
 # quay.io/coreos/fcct:release: ccr.ccs.tencentyun.com/karasu/sync:fcct
 # 容器自动升级工具
@@ -42,3 +36,5 @@ mumblevoip/mumble-server:latest: ccr.ccs.tencentyun.com/karasu/sync:mumble-serve
 # gravitl/netmaker:latest: ccr.ccs.tencentyun.com/karasu/sync:netmaker
 # gravitl/netmaker-ui:latest: ccr.ccs.tencentyun.com/karasu/sync:netmaker-ui
 # coredns/coredns:latest: ccr.ccs.tencentyun.com/karasu/sync:coredns
+# Aria2 Pro
+ghcr.io/p3terx/aria2-pro:test: ccr.ccs.tencentyun.com/karasu/sync:aria2-pro
