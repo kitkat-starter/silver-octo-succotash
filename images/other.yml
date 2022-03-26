@@ -38,3 +38,4 @@ mumblevoip/mumble-server:latest: ccr.ccs.tencentyun.com/karasu/sync:mumble-serve
 # coredns/coredns:latest: ccr.ccs.tencentyun.com/karasu/sync:coredns
 # Aria2 Pro
 ghcr.io/p3terx/aria2-pro:test: ccr.ccs.tencentyun.com/karasu/sync:aria2-pro
+p3terx/ariang:latest: ccr.ccs.tencentyun.com/karasu/sync:ariang
