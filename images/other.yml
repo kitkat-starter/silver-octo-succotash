@@ -41,3 +41,4 @@ ghcr.io/p3terx/aria2-pro:test: ccr.ccs.tencentyun.com/karasu/sync:aria2-pro
 p3terx/ariang:latest: ccr.ccs.tencentyun.com/karasu/sync:ariang
 # Cloudreve
 cloudreve/cloudreve:latest: ccr.ccs.tencentyun.com/karasu/sync:cloudreve
+hcr.io/varbhat/exatorrent:latest: ccr.ccs.tencentyun.com/karasu/sync:exatorrent
