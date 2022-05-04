@@ -42,3 +42,4 @@ p3terx/ariang:latest: ccr.ccs.tencentyun.com/karasu/sync:ariang
 # Cloudreve
 cloudreve/cloudreve:latest: ccr.ccs.tencentyun.com/karasu/sync:cloudreve
 ghcr.io/varbhat/exatorrent:latest: ccr.ccs.tencentyun.com/karasu/sync:exatorrent
+boypt/cloud-torrent:latest: ccr.ccs.tencentyun.com/karasu/sync:cloud-torrent
