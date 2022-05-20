@@ -27,7 +27,7 @@ sameersbn/redmine:latest: ccr.ccs.tencentyun.com/karasu/sync:redmine-sameersbn
 # NocoDB
 # nocodb/nocodb:latest: ccr.ccs.tencentyun.com/karasu/sync:nocodb
 # Resilio Sync
-# resilio/sync:latest: ccr.ccs.tencentyun.com/karasu/sync:resilio-sync
+resilio/sync:latest: ccr.ccs.tencentyun.com/karasu/sync:resilio-sync
 # Docker 防火墙
 # pitkley/dfw:1.2.1: ccr.ccs.tencentyun.com/karasu/sync:dfw
 dbeaver/cloudbeaver-ee:latest: ccr.ccs.tencentyun.com/karasu/sync:cloudbeaver-ee
