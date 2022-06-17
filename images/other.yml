@@ -41,6 +41,6 @@ ghcr.io/p3terx/aria2-pro:test: ccr.ccs.tencentyun.com/karasu/sync:aria2-pro
 p3terx/ariang:latest: ccr.ccs.tencentyun.com/karasu/sync:ariang
 # Cloudreve
 cloudreve/cloudreve:latest: ccr.ccs.tencentyun.com/karasu/sync:cloudreve
-ghcr.io/varbhat/exatorrent:latest: ccr.ccs.tencentyun.com/karasu/sync:exatorrent
-boypt/cloud-torrent:latest: ccr.ccs.tencentyun.com/karasu/sync:cloud-torrent
+# ghcr.io/varbhat/exatorrent:latest: ccr.ccs.tencentyun.com/karasu/sync:exatorrent
+# boypt/cloud-torrent:latest: ccr.ccs.tencentyun.com/karasu/sync:cloud-torrent
 mzz2017/v2raya:latest: ccr.ccs.tencentyun.com/karasu/sync:v2raya
