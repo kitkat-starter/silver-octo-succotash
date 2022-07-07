@@ -2,7 +2,7 @@
 v2fly/v2fly-core:latest: ccr.ccs.tencentyun.com/karasu/sync:v2ray
 portainer/portainer-ce:latest: ccr.ccs.tencentyun.com/karasu/sync:portainer
 requarks/wiki:2: ccr.ccs.tencentyun.com/karasu/sync:wikijs
-nondanee/unblockneteasemusic:latest: ccr.ccs.tencentyun.com/karasu/sync:unm
+pan93412/unblock-netease-music-enhanced:latest: ccr.ccs.tencentyun.com/karasu/sync:unm
 teddysun/kms:latest: ccr.ccs.tencentyun.com/karasu/sync:kms
 # Bitwarden
 vaultwarden/server:latest: ccr.ccs.tencentyun.com/karasu/sync:vaultwarden
