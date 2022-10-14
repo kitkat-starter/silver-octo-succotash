@@ -88,12 +88,12 @@ jobs:
   #       run: bash ./tools.sh
   #     - name: 同步其他镜像
   #       run: ./image-syncer -r 5 --proc 20 --auth auth.json --images images/ory.yml
-  sync-images-victoriametrics:
-    runs-on: ubuntu-latest
-    steps:
-      - name: 检出代码
-        uses: actions/checkout@v2
-      - name: 准备同步工具
-        run: bash ./tools.sh
-      - name: 同步其他镜像
-        run: ./image-syncer -r 5 --proc 20 --auth auth.json --images images/victoriametrics.yml
+  # sync-images-victoriametrics:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: 检出代码
+  #       uses: actions/checkout@v2
+  #     - name: 准备同步工具
+  #       run: bash ./tools.sh
+  #     - name: 同步其他镜像
+  #       run: ./image-syncer -r 5 --proc 20 --auth auth.json --images images/victoriametrics.yml
