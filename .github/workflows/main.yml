@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步 p37 镜像
@@ -29,7 +29,7 @@ jobs:
   #   runs-on: ubuntu-latest
   #   steps:
   #     - name: 检出代码
-  #       uses: actions/checkout@v2
+  #       uses: actions/checkout@v3
   #     - name: 准备同步工具
   #       run: bash ./tools.sh
   #     - name: 同步 ELK 镜像
@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步 GitLab 镜像
@@ -47,7 +47,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步 CNM Stack镜像
@@ -56,7 +56,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步 lwb2 外部镜像
@@ -65,7 +65,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: 准备同步工具
         run: bash ./tools.sh
       - name: 同步其他镜像
@@ -74,7 +74,7 @@ jobs:
   #   runs-on: ubuntu-latest
   #   steps:
   #     - name: 检出代码
-  #       uses: actions/checkout@v2
+  #       uses: actions/checkout@v3
   #     - name: 准备同步工具
   #       run: bash ./tools.sh
   #     - name: 同步其他镜像
@@ -83,7 +83,7 @@ jobs:
   #   runs-on: ubuntu-latest
   #   steps:
   #     - name: 检出代码
-  #       uses: actions/checkout@v2
+  #       uses: actions/checkout@v3
   #     - name: 准备同步工具
   #       run: bash ./tools.sh
   #     - name: 同步其他镜像
@@ -92,7 +92,7 @@ jobs:
   #   runs-on: ubuntu-latest
   #   steps:
   #     - name: 检出代码
-  #       uses: actions/checkout@v2
+  #       uses: actions/checkout@v3
   #     - name: 准备同步工具
   #       run: bash ./tools.sh
   #     - name: 同步其他镜像
