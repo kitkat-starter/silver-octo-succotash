@@ -1,6 +1,3 @@
-# 翼龙的两份镜像 腾讯云
-# quay.io/pterodactyl/core: ccr.ccs.tencentyun.com/pterodactyl/core
-# quay.io/parkervcp/pterodactyl-images: ccr.ccs.tencentyun.com/pterodactyl/pterodactyl-images
 # 接下来是他们新的镜像
 ghcr.io/pterodactyl/yolks: ccr.ccs.tencentyun.com/pterodactyl/yolks
 ghcr.io/pterodactyl/games: ccr.ccs.tencentyun.com/pterodactyl/games
@@ -9,3 +6,4 @@ ghcr.io/pterodactyl/installers: ccr.ccs.tencentyun.com/pterodactyl/installers
 ghcr.io/parkervcp/yolks: ccr.ccs.tencentyun.com/pterodactyl/yolks-parkervcp
 ghcr.io/parkervcp/games: ccr.ccs.tencentyun.com/pterodactyl/games-parkervcp
 ghcr.io/parkervcp/installers: ccr.ccs.tencentyun.com/pterodactyl/installers-parkervcp
+ghcr.io/parkervcp/steamcmd: ccr.ccs.tencentyun.com/pterodactyl/steamcmd-parkervcp
