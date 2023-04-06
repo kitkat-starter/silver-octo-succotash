@@ -70,15 +70,15 @@ jobs:
         run: bash ./tools.sh
       - name: 同步其他镜像
         run: ./image-syncer -r 5 --proc 20 --auth auth.json --images images/other.yml
-  # sync-images-homoassistant:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: 检出代码
-  #       uses: actions/checkout@v3
-  #     - name: 准备同步工具
-  #       run: bash ./tools.sh
-  #     - name: 同步其他镜像
-  #       run: ./image-syncer -r 5 --proc 20 --auth auth.json --images images/homoassistant.yml
+  sync-images-homoassistant:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+      - name: 准备同步工具
+        run: bash ./tools.sh
+      - name: 同步其他镜像
+        run: ./image-syncer -r 5 --proc 20 --auth auth.json --images images/homoassistant.yml
   # sync-images-ory:
   #   runs-on: ubuntu-latest
   #   steps:
