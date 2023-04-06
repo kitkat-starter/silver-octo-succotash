@@ -1,1 +1,1 @@
-homeassistant/home-assistant:latest: ccr.ccs.tencentyun.com/karasu/homoassistant:home-assistant
+ghcr.io/home-assistant/home-assistant:stable: ccr.ccs.tencentyun.com/karasu/homoassistant:home-assistant
